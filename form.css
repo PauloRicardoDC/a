@@ -1,0 +1,81 @@
+body{
+    color: white;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: white;
+}
+.centro {
+    text-align: center;
+}
+
+.conteudo{
+    padding: 0px 50px;
+}
+
+footer {
+    padding: 20px 20px;
+}
+
+nav a:hover{
+    color: green;
+}
+
+
+aside img{
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    margin: 30px;
+    align-content: center;
+    border-radius: 50%;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+fieldset {
+    border: 0;
+}
+
+input, button{
+    border-radius: 5px;
+}
+
+.botao{
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px gray;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+.botao:hover{
+    background-color: green;
+    text-shadow: none;
+}
+
+aside{
+    background-color: grey;
+    font-size: 50px;
+    top: 50%;
+    text-align: left;
+
+}
+
+
